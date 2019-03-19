@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		84AEEB177CA6997A36085633 /* Pods_TabPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D68FA3450ACABA7E525A8A /* Pods_TabPageViewController.framework */; };
 		FDA9B2F52240934D00ABEDFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B2F42240934D00ABEDFB /* AppDelegate.swift */; };
-		FDA9B2F72240934D00ABEDFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B2F62240934D00ABEDFB /* ViewController.swift */; };
+		FDA9B2F72240934D00ABEDFB /* TabPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B2F62240934D00ABEDFB /* TabPageViewController.swift */; };
 		FDA9B2FA2240934D00ABEDFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA9B2F82240934D00ABEDFB /* Main.storyboard */; };
 		FDA9B2FD2240934D00ABEDFB /* TabPageViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B2FB2240934D00ABEDFB /* TabPageViewController.xcdatamodeld */; };
 		FDA9B2FF2240934E00ABEDFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA9B2FE2240934E00ABEDFB /* Assets.xcassets */; };
 		FDA9B3022240934E00ABEDFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA9B3002240934E00ABEDFB /* LaunchScreen.storyboard */; };
+		FDA9B30A2240A9DF00ABEDFB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B3092240A9DF00ABEDFB /* PageViewController.swift */; };
+		FDA9B30C2240AC5200ABEDFB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B30B2240AC5200ABEDFB /* TabBarViewController.swift */; };
+		FDA9B3112240AD4F00ABEDFB /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B3102240AD4F00ABEDFB /* TabBarViewModel.swift */; };
+		FDA9B3142240BBD800ABEDFB /* UIView+LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B3132240BBD800ABEDFB /* UIView+LayoutGuide.swift */; };
+		FDA9B3162240BFB500ABEDFB /* UIViewController+LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B3152240BFB500ABEDFB /* UIViewController+LayoutGuide.swift */; };
+		FDA9B3192240C38600ABEDFB /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B3182240C38600ABEDFB /* ColorUtil.swift */; };
+		FDA9B31C2240D82A00ABEDFB /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9B31B2240D82A00ABEDFB /* ColorManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +29,19 @@
 		FCCFD5DF401A174716490553 /* Pods-TabPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabPageViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabPageViewController/Pods-TabPageViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		FDA9B2F12240934D00ABEDFB /* TabPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA9B2F42240934D00ABEDFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDA9B2F62240934D00ABEDFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDA9B2F62240934D00ABEDFB /* TabPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPageViewController.swift; sourceTree = "<group>"; };
 		FDA9B2F92240934D00ABEDFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDA9B2FC2240934D00ABEDFB /* TabPageViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabPageViewController.xcdatamodel; sourceTree = "<group>"; };
 		FDA9B2FE2240934E00ABEDFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA9B3012240934E00ABEDFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDA9B3032240934E00ABEDFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA9B3092240A9DF00ABEDFB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		FDA9B30B2240AC5200ABEDFB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		FDA9B3102240AD4F00ABEDFB /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		FDA9B3132240BBD800ABEDFB /* UIView+LayoutGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LayoutGuide.swift"; sourceTree = "<group>"; };
+		FDA9B3152240BFB500ABEDFB /* UIViewController+LayoutGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+LayoutGuide.swift"; sourceTree = "<group>"; };
+		FDA9B3182240C38600ABEDFB /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
+		FDA9B31B2240D82A00ABEDFB /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				FDA9B2F42240934D00ABEDFB /* AppDelegate.swift */,
-				FDA9B2F62240934D00ABEDFB /* ViewController.swift */,
+				FDA9B31A2240D81000ABEDFB /* Manager */,
+				FDA9B3172240C36100ABEDFB /* Util */,
+				FDA9B3122240BB9600ABEDFB /* Extention */,
+				FDA9B30D2240ACD600ABEDFB /* ViewModel */,
+				FDA9B30E2240ACF100ABEDFB /* TabPage */,
 				FDA9B2F82240934D00ABEDFB /* Main.storyboard */,
 				FDA9B2FE2240934E00ABEDFB /* Assets.xcassets */,
 				FDA9B3002240934E00ABEDFB /* LaunchScreen.storyboard */,
@@ -89,6 +107,49 @@
 				FDA9B2FB2240934D00ABEDFB /* TabPageViewController.xcdatamodeld */,
 			);
 			path = TabPageViewController;
+			sourceTree = "<group>";
+		};
+		FDA9B30D2240ACD600ABEDFB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDA9B3102240AD4F00ABEDFB /* TabBarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FDA9B30E2240ACF100ABEDFB /* TabPage */ = {
+			isa = PBXGroup;
+			children = (
+				FDA9B2F62240934D00ABEDFB /* TabPageViewController.swift */,
+				FDA9B30B2240AC5200ABEDFB /* TabBarViewController.swift */,
+				FDA9B3092240A9DF00ABEDFB /* PageViewController.swift */,
+			);
+			path = TabPage;
+			sourceTree = "<group>";
+		};
+		FDA9B3122240BB9600ABEDFB /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				FDA9B3132240BBD800ABEDFB /* UIView+LayoutGuide.swift */,
+				FDA9B3152240BFB500ABEDFB /* UIViewController+LayoutGuide.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		FDA9B3172240C36100ABEDFB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FDA9B3182240C38600ABEDFB /* ColorUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		FDA9B31A2240D81000ABEDFB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FDA9B31B2240D82A00ABEDFB /* ColorManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +301,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA9B2F72240934D00ABEDFB /* ViewController.swift in Sources */,
+				FDA9B3192240C38600ABEDFB /* ColorUtil.swift in Sources */,
+				FDA9B31C2240D82A00ABEDFB /* ColorManager.swift in Sources */,
+				FDA9B2F72240934D00ABEDFB /* TabPageViewController.swift in Sources */,
 				FDA9B2F52240934D00ABEDFB /* AppDelegate.swift in Sources */,
+				FDA9B3142240BBD800ABEDFB /* UIView+LayoutGuide.swift in Sources */,
 				FDA9B2FD2240934D00ABEDFB /* TabPageViewController.xcdatamodeld in Sources */,
+				FDA9B30C2240AC5200ABEDFB /* TabBarViewController.swift in Sources */,
+				FDA9B3162240BFB500ABEDFB /* UIViewController+LayoutGuide.swift in Sources */,
+				FDA9B3112240AD4F00ABEDFB /* TabBarViewModel.swift in Sources */,
+				FDA9B30A2240A9DF00ABEDFB /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +460,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNR6294CC5;
 				INFOPLIST_FILE = TabPageViewController/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shS2.TabPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -408,7 +479,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNR6294CC5;
 				INFOPLIST_FILE = TabPageViewController/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shS2.TabPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

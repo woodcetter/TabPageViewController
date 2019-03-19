@@ -9,15 +9,28 @@
 import UIKit
 import CoreData
 
+import SnapKit
+import ManualLayout
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let window = UIWindow.init(frame: UIScreen.main.bounds)
+        window.makeKeyAndVisible()
+        window.rootViewController = TabPageViewController()
+        window.backgroundColor = .white
+        
+        self.window = window
         return true
+    }
+    
+    static var instance: AppDelegate? {
+        return UIApplication.shared.delegate as? AppDelegate
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
