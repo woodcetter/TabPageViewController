@@ -11,6 +11,7 @@ import UIKit
 struct Color {
     static let black = ColorUtil.getColor(with: 0x333333)
     static let green = ColorUtil.getColor(with: 0x00af7f)
+    static let navy = ColorUtil.getColor(with: 0x000080)
 }
 
 //enum MainColor {
@@ -42,5 +43,9 @@ extension UIColor {
     /// 기본 초록 색상 0x00af7f
     open class var green: UIColor {
         return Color.green
+    }
+    
+    open class var navy: UIColor {
+        return Color.navy
     }
 }

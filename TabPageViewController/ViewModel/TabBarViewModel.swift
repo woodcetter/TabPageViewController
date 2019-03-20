@@ -9,19 +9,16 @@
 import UIKit
 
 protocol ContainTabBar {
-    var titles: [String] { get set }
-    var titleImages: [UIImage]? { get set }
-    var underScoreView: UIView? { get set }
+    var title: String { get set }
+    var titleImage: UIImage? { get set }
 }
 
 struct TabBarViewModel: ContainTabBar {
-    var titles: [String] = []
-    var titleImages: [UIImage]?
-    var underScoreView: UIView?
+    var title: String
+    var titleImage: UIImage?
     
-    init(titles: [String], titleImages: [UIImage]? = nil, underScoreView: UIView? = nil) {
-        self.titles = titles
-        self.titleImages = titleImages
-        self.underScoreView = underScoreView
+    init(title: String, titleImage: UIImage? = nil) {
+        self.title = title
+        self.titleImage = titleImage
     }
 }
